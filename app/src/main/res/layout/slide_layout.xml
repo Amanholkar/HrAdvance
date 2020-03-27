@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="372dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leaves" />
+
+    <TextView
+        android:id="@+id/slide_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="    Track leaves and apply    \n     leaves on-the-go"
+        android:textColor="@android:color/background_dark"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="@+id/slide_image"
+        app:layout_constraintStart_toStartOf="@+id/slide_image"
+        app:layout_constraintTop_toBottomOf="@+id/slide_image" />
+
+    <TextView
+        android:id="@+id/slide_descsption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:text=" You can check your leave balance and
+apply for leaves with you mobile device
+                        on-the-go"
+        android:textColor="#362E2E"
+        app:layout_constraintEnd_toEndOf="@+id/slide_header"
+        app:layout_constraintStart_toStartOf="@+id/slide_header"
+        app:layout_constraintTop_toBottomOf="@+id/slide_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

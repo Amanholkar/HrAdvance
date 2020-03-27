@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HrAdvance</string>
+    <string name="validation_sub_title">We need just a few more details:</string>
+    <string name="validation_title">Uh-Oh!</string>
+    <string name="ok">Ok</string>
+    <string name="uh_oh">Uh-Oh!</string>
+    <string name="we_need_just_a_few_more_details">We need just a few more details:</string>
+    <string name="login_username">Email/Username</string>
+</resources>
